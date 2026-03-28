@@ -13,8 +13,8 @@ sudo rm -f /dev/mydev
 echo "==> Building..."
 make clean && make
 
-echo "==> Signing..."
-sudo $HEADERS/scripts/sign-file sha256 $KEY $CRT ${MODULE}.ko
+#echo "==> Signing..."
+#sudo $HEADERS/scripts/sign-file sha256 $KEY $CRT ${MODULE}.ko
 
 echo "==> Inserting module..."
 sudo insmod ${MODULE}.ko kernel_version=6,12 timer_val=60
