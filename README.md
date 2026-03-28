@@ -116,10 +116,9 @@ make clean
 ## File Structure
 
 ```
-kodeti_B240213CS/
+Char-device-driver/
 ├── b240213cs_A1.c     ← driver source code
 ├── Makefile           ← builds the .ko kernel module
 ├── README.md          ← this file
-├── test.sh            ← a bash script to test the device driver
-└── B240213CS_A1.pdf   ← report with screenshots
-```
+└── test.sh            ← a bash script to test the device driver
+ ```
