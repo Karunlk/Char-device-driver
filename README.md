@@ -1,7 +1,5 @@
-# Assignment 1 — Character Device Driver
+#  Character Device Driver
 **Author:** K. D. Karun Lakshman
-**Roll No:** B240213CS
-**Course:** Operating Systems
 
 ---
 
