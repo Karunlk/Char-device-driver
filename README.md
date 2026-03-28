@@ -29,7 +29,7 @@ make clean
 ---
 
 ## Execution Steps
-##note : Disable module signature enforcement or Sign the module yourself or Disable Secure Boot in BIOS before starting step 1.
+### Note : Disable module signature enforcement or Sign the module yourself or Disable Secure Boot in BIOS before starting step 1.
 ### Step 1 — Find your kernel version
 ```bash
 uname -r
@@ -118,7 +118,8 @@ make clean
 ```
 kodeti_B240213CS/
 ├── b240213cs_A1.c     ← driver source code
-├── Makefile             ← builds the .ko kernel module
-├── README.md            ← this file
+├── Makefile           ← builds the .ko kernel module
+├── README.md          ← this file
+├── test.sh            ← a bash script to test the device driver
 └── B240213CS_A1.pdf   ← report with screenshots
 ```
