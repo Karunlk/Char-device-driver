@@ -115,8 +115,9 @@ make clean
 
 ```
 Char-device-driver/
-├── b240213cs_A1.c     ← driver source code
-├── Makefile           ← builds the .ko kernel module
-├── README.md          ← this file
-└── test.sh            ← a bash script to test the device driver
+├── b240213cs_A1.c          ← driver source code
+├── b240213cs_A1_report.pdf ← report of the program file
+├── Makefile                ← builds the .ko kernel module
+├── README.md               ← this file
+└── test.sh                 ← a bash script to test the device driver
  ```
