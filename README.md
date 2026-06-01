@@ -27,7 +27,7 @@ make clean
 ---
 
 ## Execution Steps
-### Note : Disable module signature enforcement or Sign the module yourself or Disable Secure Boot in BIOS before starting step 1.
+ ***Note :***  Disable module signature enforcement or Sign the module yourself or Disable Secure Boot in BIOS before starting step 1.
 ### Step 1 — Find your kernel version
 ```bash
 uname -r
