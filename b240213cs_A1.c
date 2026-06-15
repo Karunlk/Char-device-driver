@@ -11,7 +11,7 @@
 #include <linux/sched.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("YOUR NAME");
+MODULE_AUTHOR("Karun");
 MODULE_DESCRIPTION("Assignment 1 - Character Device Driver with waitqueue and timer");
 
 // constants
